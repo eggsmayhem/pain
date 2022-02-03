@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid black;
+    height: 200px;
+    /*display: block;*/
+    clear: both;
+    width: 100%;
+}
+
+section {
+    background-color: red;
+    border: 3px solid black;
+    height: 150px;
+    width: 100%;
+    
+}
+
+
+@media (min-width: 835px) and (max-width: 1153px) {
+
+    header, footer {
+        border: 3px solid black;
+        height: 300px;
+        
+    }
+
+    footer {
+        clear: both;
+    }
+
+    header {
+        width: 50%;
+        float: left;
+    }
+    
+    section {
+        background-color:yellow;
+        border: 3px solid black;
+        height: 300px;
+        width: 50%;
+        float: left;
+    }
+    
+}
+
+@media (min-width: 1154px) {
+
+    header, footer {
+        border: 3px solid black;
+        height: 200px;
+        clear: both;
+       
+    }
+    
+    section {
+        background-color:purple;
+        border: 3px solid black;
+        height: 300px;
+        width: 33.3333%;
+        float: left;
+    }
+    
+}
+
+
